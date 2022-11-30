@@ -1,0 +1,31 @@
+.title-home {
+    margin: 2em auto;
+    text-align: center;
+}
+
+.link-and-comments{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-home{
+    padding: 0.5rem;
+    background: transparent;
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid rgb(73, 73, 235);
+    transition: 0.2s all;
+}
+
+.btn-home:hover{
+    transition: 0.2s all;
+    background: #fff;
+    color: #000
+}

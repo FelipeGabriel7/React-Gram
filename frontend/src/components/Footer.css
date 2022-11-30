@@ -1,0 +1,18 @@
+.footer{
+    margin-top: 5em;
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    background: #777;
+    padding: 2rem;
+    color: #eee;
+    align-items: flex-end;
+    justify-content: center;
+    transition: 0.2s all linear;
+}
+
+.footer:hover{
+    transition: 0.3s all linear;
+    color: #333;
+    background: #eee;
+}

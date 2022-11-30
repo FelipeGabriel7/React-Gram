@@ -1,0 +1,44 @@
+.container-form{
+    margin-top: 2em;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    margin: 5em auto;
+    display: flex;
+    border-radius: 0.5rem;
+    border: 1px solid #444;
+    gap: 1em;
+    padding: 2rem;
+    flex-direction: column;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(167, 167, 167, 0.452);
+}
+
+.form label{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.form input {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.form input:focus{
+    outline: 1px solid #45f;
+}
+
+.btn{
+    background: rgb(36, 36, 218);
+    color: #fff;
+    cursor: pointer;
+}

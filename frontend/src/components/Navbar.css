@@ -1,0 +1,69 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.8rem;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.527);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: #eee;
+    align-items: center;
+    border: none;
+    background: #eee;
+}
+
+.search-bar > input{
+    background: #eee;
+    border: none;
+}
+
+.search-bar > input::placeholder{
+    text-align: center;
+    font-weight: 700;
+}
+
+.title{
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.link{
+    text-decoration: none;
+    transition: 0.2s all linear;
+    color: #fff;
+}
+
+.link:hover{
+    transition: 0.2s all linear;
+    color: rgb(109, 109, 109);
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.links-logout{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.btn-logout{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background:rgb(59, 62, 192);
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.comment{
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-comment{
+    display: flex;
+    padding: 0.8rem;
+    background: #000;
+    border-radius: 0.5rem;
+}
+
+.form-comment input{
+    padding: 0.4rem;
+    color: #fff;
+    border: none;
+    background: #000;
+}
+
+.form-comment input::placeholder{
+    color: rgb(201, 201, 201);
+}
+
+.form-comment button{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.2rem;
+    background:rgb(59, 62, 192);
+}
+
+.comment-content{
+    width : 80%;
+    margin: 3em auto;
+    background: #000;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(32, 32, 32, 0.733);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comment-content img{
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+
+.comment-item{
+    gap: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 1rem;
+    flex-direction: column;
+}
+
+.name-comment{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-comment{
+    color: #7b7b7b;
+}

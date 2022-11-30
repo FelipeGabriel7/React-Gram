@@ -1,0 +1,35 @@
+.photo-item{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    flex-direction: column;
+}
+
+
+.photo-image{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-image img{
+    width: 40%;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+}
+
+.icons{
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.icon:hover{
+    color: #7b7b7b;
+}

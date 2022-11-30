@@ -1,0 +1,237 @@
+.headers-profile{
+    margin: 2em auto;
+    border-bottom: 1px solid #7b7b7b;
+    width: 50%;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.items-name{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.icon{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+ 
+
+ @-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.load {
+    text-align: start;
+	width: 100px;
+	height: 100px;
+	margin: 110px auto 0;
+	border:solid 10px #092cee;
+	border-radius: 50%;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	 -webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         1.0s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    	 transition: all 0.5s ease-in;
+    animation-name:             rotate; 
+    animation-duration:         1.0s; 
+    animation-iteration-count:  infinite;
+    animation-timing-function: linear; 
+}
+
+
+.form-add-photo{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #7b7b7b;
+}
+
+
+.form-photo{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.form-photo label{
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: column;
+}
+
+.form-photo  input {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.iptn-image{
+    background: #fff;
+}
+
+
+.btn-photo{
+    margin: 1em auto;
+    background: #071980;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.3rem  #20028aa1;
+    transition: 0.3s all;
+}
+
+
+.btn-photo-link{
+    text-align: end;
+    padding: 0.2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-photo:hover{
+    transition: 0.3s all;
+    background: #fff;
+    color: #071980;
+    box-shadow: 0.1rem 0.1rem 0.1rem  #eeee;
+}
+
+
+.container-photos{
+    margin: 2em auto;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.photos-content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.photos-content img{
+    width: 380px;
+    min-height: 380px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.1rem;
+    text-align: center;
+    background: #000;
+    border-radius: 0.5rem;
+}
+
+
+.icons-photo{
+    margin: 0.5em ;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    justify-content: space-around;
+}
+
+.icon{
+    font-size: 1.2em;
+    color: #fff;
+    transition: 0.2s all;
+}
+
+.icon:hover{
+    transition: 0.2s all;
+    color:  #7b7b7b;
+}
+
+.edit-photo-form{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-photo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+.edit-photo input{
+    margin: 0 auto;
+    padding: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.btn-photo-edit{
+    border: none;
+    cursor: pointer;
+    background: #092cee;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.btn-photo-cancel{
+    padding: 0.5rem;
+    background: #071980;
+    color: #fff;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.visible{
+    display: none;
+  }
